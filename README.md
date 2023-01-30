@@ -106,6 +106,81 @@ git commit --amend
 git cherry pick C3
 ```
 
+**Git Tags**
+```
+git checkout HEAD^^
+git tag v0 C1
+git checkout C2
+git tag v1 C2
+```
+
+**Git Describe**
+```
+git commit
+```
+
+**Rebasing over 9000 Times**
+```
+git rebase main bugFix
+git rebase bugFix side
+git reabase side another
+git rebase another main
+```
+
+**Multiple Parents**
+```
+git branch bugWork main^^2^
+```
+
+**Branch Spaghetti**
+```
+git checkout two
+git cherry-pick C5 C4 C3 C2
+git checkout one
+git cherry-pick C4 C3 C2
+git branch -f three C2
+```
+
+**Clone Intro**
+```
+git clone
+```
+
+**Remote Branches**
+```
+git commuit
+git checkout o/main
+git commit
+```
+
+**Git Fetich'**
+```
+git fetch
+```
+
+**Git pullin'**
+```
+git fetch
+git merge o/main OR
+git pull
+```
+
+**Faking teamwork**
+```
+git clone
+git fakeTeamwork 2
+git commit
+git pull
+```
+
+**Git Pushin'**
+```
+git commit
+git commit
+git push
+```
+
+**Diverged History**
 
 
 

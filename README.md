@@ -198,7 +198,13 @@ git push origin feature
 
 **Push Main**
 ```
-
+git checkout main
+git pull
+git rebase main side1
+git rebase side1 side2
+git rebase side2 side3
+git branch -f main side3
+git push origin main
 ```
 
 

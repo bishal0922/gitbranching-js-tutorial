@@ -97,10 +97,15 @@ git rebase -i main
 git branch -f main
 ```
 
-**Juggling Commits 2**
+**Juggling Commits #2**
 
 ```
-
+git checkout main
+git cherry-pick C2
+git commit --amend
+git cherry pick C3
 ```
+
+
 
 

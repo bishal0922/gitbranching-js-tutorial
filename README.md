@@ -181,6 +181,24 @@ git push
 ```
 
 **Diverged History**
+```
+git clone
+git fakeTeamwork 1
+git commit
+git pull --rebsae
+git push
+```
 
+**Locked Main**
+```
+git reset --hard o/main
+git checkout -b feature C2
+git push origin feature
+```
+
+**Push Main**
+```
+
+```
 
 
